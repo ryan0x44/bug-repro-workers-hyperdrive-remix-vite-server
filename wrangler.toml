@@ -12,3 +12,9 @@ directory = "./build/client"
 
 [build]
 command = "npm run build"
+
+[[hyperdrive]]
+binding = "DB_TEST"
+id = ""
+localConnectionString = "postgres://postgres:postgres@localhost:5432/test"
+
